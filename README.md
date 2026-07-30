@@ -1,13 +1,13 @@
 # code-lens
 
-[![Deploy GitHub Pages](https://github.com/AMDphreak/code-lens/actions/workflows/pages.yml/badge.svg)](https://github.com/AMDphreak/code-lens/actions/workflows/pages.yml)
-[![License: MIT](https://img.shields.io/github/license/AMDphreak/code-lens?style=flat-square)](LICENSE)
-[![Live demo](https://img.shields.io/badge/demo-ryanjohnson.dev%2Fcode--lens-2563eb?style=flat-square)](https://ryanjohnson.dev/code-lens/)
+[![Deploy GitHub Pages](https://github.com/dev-centr/code-lens/actions/workflows/pages.yml/badge.svg)](https://github.com/dev-centr/code-lens/actions/workflows/pages.yml)
+[![License: MIT](https://img.shields.io/github/license/dev-centr/code-lens?style=flat-square)](LICENSE)
+[![Live demo](https://img.shields.io/badge/demo-dev-centr.github.io%2Fcode--lens-2563eb?style=flat-square)](https://dev-centr.github.io/code-lens/)
 [![pnpm monorepo](https://img.shields.io/badge/maintained%20with-pnpm-f69220?style=flat-square&logo=pnpm&logoColor=white)](https://pnpm.io/)
 
 One snippet, multiple pedagogical naming conventions — the real lens for code examples (not a metaphor).
 
-**Live demo:** [ryanjohnson.dev/code-lens](https://ryanjohnson.dev/code-lens/)
+**Live demo:** [dev-centr.github.io/code-lens](https://dev-centr.github.io/code-lens/)
 
 ## Delivery model
 

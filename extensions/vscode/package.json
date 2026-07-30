@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AMDphreak/code-lens"
+    "url": "https://github.com/dev-centr/code-lens"
   },
   "engines": {
     "vscode": "^1.85.0"

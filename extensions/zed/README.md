@@ -2,7 +2,7 @@
 
 Starting point for Zed integration. **Status:** manifest + docs only.
 
-**Upstream:** [github.com/AMDphreak/code-lens](https://github.com/AMDphreak/code-lens)
+**Upstream:** [github.com/dev-centr/code-lens](https://github.com/dev-centr/code-lens)
 
 ## Feasibility (honest)
 
@@ -11,7 +11,7 @@ Zed does **not** currently offer a VS Code–style webview for embedding `@code-
 | Approach | Feasibility |
 |----------|-------------|
 | **LSP server** returning inlay hints / code actions with role labels | Best v1 |
-| Open external preview (`ryanjohnson.dev/code-lens` or local static server) | Easy |
+| Open external preview (`dev-centr.github.io/code-lens` or local static server) | Easy |
 | Native text overlays with morph animation | Blocked on editor APIs |
 
 See [docs/editor-integrations.md](../../docs/editor-integrations.md).
@@ -41,7 +41,7 @@ language = "..."
 
 When implementation exists:
 
-1. Clone [AMDphreak/code-lens](https://github.com/AMDphreak/code-lens)
+1. Clone [dev-centr/code-lens](https://github.com/dev-centr/code-lens)
 2. `zed extensions install file:///path/to/extensions/zed`
 3. Or dev link per Zed's extension development guide
 

@@ -4,7 +4,7 @@ Can VS Code and Zed do **code-lens** (pedagogical lens switching on real source 
 
 ## The core problem in editors
 
-Static examples in [code-lens](https://github.com/AMDphreak/code-lens) ship pre-aligned token data. **Real code** has no `slot` keys — you must infer which identifiers play which role, then generate four naming variants (didactic, schematic, contextual, role-labeled).
+Static examples in [code-lens](https://github.com/dev-centr/code-lens) ship pre-aligned token data. **Real code** has no `slot` keys — you must infer which identifiers play which role, then generate four naming variants (didactic, schematic, contextual, role-labeled).
 
 That second step is where **AI or LSP + heuristics** enter. The portable spec still applies once you have aligned variants.
 
@@ -81,7 +81,7 @@ Privacy: default to **local / user-approved** AI; never send full repo without c
 IDE integrations are tracked on DevCentr as part of **developer UX / literate tooling**:
 
 - [DevCentr Todo & Roadmap — code-lens IDE](https://docs.devcentr.org/DevCentr/latest/todo-roadmap.html)
-- Upstream spec: [github.com/AMDphreak/code-lens](https://github.com/AMDphreak/code-lens)
+- Upstream spec: [github.com/dev-centr/code-lens](https://github.com/dev-centr/code-lens)
 
 ## Summary
 

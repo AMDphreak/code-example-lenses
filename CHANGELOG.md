@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Repository transferred from `AMDphreak/code-lens` to [`dev-centr/code-lens`](https://github.com/dev-centr/code-lens). Live demo: [dev-centr.github.io/code-lens](https://dev-centr.github.io/code-lens/).
+
 ## [0.3.13] - 2026-05-29
 
 ### Added
@@ -193,7 +199,7 @@
 ### Changed
 
 - Renamed project to **code-lens** (`@code-lens/*` packages, `<code-lens>` element).
-- GitHub repository: `AMDphreak/code-lens`.
+- GitHub repository: `dev-centr/code-lens`.
 
 ### Added
 

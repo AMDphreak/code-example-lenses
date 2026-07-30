@@ -14,7 +14,7 @@ resolver = "2"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/AMDphreak/code-lens"
+repository = "https://github.com/dev-centr/code-lens"
 
 [workspace.dependencies]
 code-lens-adapter = { path = "code-lens-adapter" }

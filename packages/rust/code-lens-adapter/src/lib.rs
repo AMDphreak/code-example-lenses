@@ -1,4 +1,4 @@
-//! Mount [`code-lens`](https://github.com/AMDphreak/code-lens) from Rust/WASM web apps.
+//! Mount [`code-lens`](https://github.com/dev-centr/code-lens) from Rust/WASM web apps.
 //!
 //! Bundle `@code-lens/wasm-bridge` in your frontend (Trunk, Vite, Leptos CSR) and call
 //! [`mount_from_json`] when a host `<div>` is ready.

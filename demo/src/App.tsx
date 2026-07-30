@@ -56,6 +56,8 @@ export default function App() {
       </header>
 
       <main class="container max-w-3xl space-y-12 py-10">
+        <DemoSection themes={themes} />
+
         <section class="space-y-3">
           <h2 class="font-heading text-2xl font-semibold tracking-tight">Where this idea comes from</h2>
           <p class="text-muted-foreground">
@@ -71,8 +73,6 @@ export default function App() {
           <LensComparisonTable />
         </section>
 
-        <DemoSection themes={themes} />
-
         <section id="spec" class="scroll-mt-8 space-y-4">
           <h2 class="font-heading text-2xl font-semibold tracking-tight">Portable specification</h2>
           <p class="text-muted-foreground">
@@ -84,7 +84,7 @@ export default function App() {
           </ul>
           <Button
             as="a"
-            href="https://github.com/AMDphreak/code-lens/blob/main/docs/specification.md"
+            href="https://github.com/dev-centr/code-lens/blob/main/docs/specification.md"
             variant="link"
             class="h-auto p-0 font-mono text-xs uppercase tracking-widest"
             target="_blank"
@@ -98,17 +98,17 @@ export default function App() {
           <h2 class="font-heading text-2xl font-semibold tracking-tight">Implementations</h2>
           <p class="text-sm text-muted-foreground">
             Includes editor scaffolds:{" "}
-            <a class="link-neutral" href="https://github.com/AMDphreak/code-lens/tree/main/extensions/vscode">
+            <a class="link-neutral" href="https://github.com/dev-centr/code-lens/tree/main/extensions/vscode">
               VS Code
             </a>
             ,{" "}
-            <a class="link-neutral" href="https://github.com/AMDphreak/code-lens/tree/main/extensions/zed">
+            <a class="link-neutral" href="https://github.com/dev-centr/code-lens/tree/main/extensions/zed">
               Zed
             </a>{" "}
             — see{" "}
             <a
               class="link-neutral"
-              href="https://github.com/AMDphreak/code-lens/blob/main/docs/editor-integrations.md"
+              href="https://github.com/dev-centr/code-lens/blob/main/docs/editor-integrations.md"
             >
               editor feasibility
             </a>
@@ -117,7 +117,7 @@ export default function App() {
           <ImplementationsTable />
           <Button
             as="a"
-            href="https://github.com/AMDphreak/code-lens/blob/main/implementations/REGISTRY.md"
+            href="https://github.com/dev-centr/code-lens/blob/main/implementations/REGISTRY.md"
             variant="link"
             class="h-auto p-0 font-mono text-xs uppercase tracking-widest"
             target="_blank"
@@ -135,7 +135,7 @@ export default function App() {
           </p>
           <Button
             as="a"
-            href="https://github.com/AMDphreak/code-lens/blob/main/docs/ai-reproduction-spec.md"
+            href="https://github.com/dev-centr/code-lens/blob/main/docs/ai-reproduction-spec.md"
             variant="link"
             class="h-auto p-0 font-mono text-xs uppercase tracking-widest"
             target="_blank"

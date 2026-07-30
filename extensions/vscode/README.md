@@ -4,7 +4,7 @@ Starting point for in-editor pedagogical lens switching on **real code**.
 
 **Status:** scaffold (commands + decoration stub + preview panel placeholder)
 
-**Spec:** [github.com/AMDphreak/code-lens](https://github.com/AMDphreak/code-lens)
+**Spec:** [github.com/dev-centr/code-lens](https://github.com/dev-centr/code-lens)
 
 ## What works today
 

@@ -55,7 +55,7 @@ export const SPEC_FILES = [
 ] as const;
 
 export const NAV = [
-  { href: "https://github.com/AMDphreak/code-lens", label: "Repository", external: true },
+  { href: "https://github.com/dev-centr/code-lens", label: "Repository", external: true },
   { href: "#demo", label: "Live demo", external: false },
   { href: "#spec", label: "Specification", external: false },
   { href: "#implementations", label: "Implementations", external: false },
