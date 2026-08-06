@@ -1,17 +1,42 @@
-# code-lens
+<a id="readme-top"></a>
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
 [![Deploy GitHub Pages](https://github.com/dev-centr/code-lens/actions/workflows/pages.yml/badge.svg)](https://github.com/dev-centr/code-lens/actions/workflows/pages.yml)
-[![License: MIT](https://img.shields.io/github/license/dev-centr/code-lens?style=flat-square)](LICENSE)
-[![Live demo](https://img.shields.io/badge/demo-dev-centr.github.io%2Fcode--lens-2563eb?style=flat-square)](https://dev-centr.github.io/code-lens/)
-[![pnpm monorepo](https://img.shields.io/badge/maintained%20with-pnpm-f69220?style=flat-square&logo=pnpm&logoColor=white)](https://pnpm.io/)
+
+<div align="center">
+  <h1>code-lens</h1>
+  <p>One code snippet, multiple pedagogical lenses — portable JSON5 spec and &lt;code-lens&gt; web component with framework adapters.</p>
+  <p>
+    <a href="https://dev-centr.github.io/code-lens/">Live demo</a>
+    ·
+    <a href="https://github.com/dev-centr/code-lens/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/dev-centr/code-lens/issues">Request Feature</a>
+  </p>
+</div>
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+## About The Project
 
 One snippet, multiple pedagogical naming conventions — the real lens for code examples (not a metaphor).
 
-**Live demo:** [dev-centr.github.io/code-lens](https://dev-centr.github.io/code-lens/)
+### Delivery model
 
-## Delivery model
-
-**In Solid/React/Next you install a component** — e.g. `import { CodeLens } from "@code-lens/solid"`. Under the hood one shared engine powers every framework package; you don’t touch that unless you’re on plain HTML.
+**In Solid/React/Next you install a component** — e.g. `import { CodeLens } from "@code-lens/solid"`. Under the hood one shared engine powers every framework package; you don't touch that unless you're on plain HTML.
 
 | Layer | Package |
 |-------|---------|
@@ -21,12 +46,14 @@ One snippet, multiple pedagogical naming conventions — the real lens for code 
 
 → [docs/ecosystem.md](docs/ecosystem.md)
 
-## Quick start
+## Installation
 
 ```bash
 pnpm install
 pnpm dev          # SolidJS + solid-ui demo (port 5174) — mounts vanilla <code-lens>
 ```
+
+## Usage
 
 ```js
 import "@code-lens/css";
@@ -50,7 +77,7 @@ document.body.appendChild(el);
 
 `slotHighlight`: `plain` | `box` — rounded highlight on changeable tokens (default `plain`).
 
-## Portable spec
+### Portable spec
 
 | File | Role |
 |------|------|
@@ -67,3 +94,25 @@ document.body.appendChild(el);
 ## License
 
 MIT
+
+## Contact
+
+DevCentr.org - support@devcentr.org
+
+Project Link: https://github.com/dev-centr/code-lens
+
+Site: https://dev-centr.github.io/code-lens/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/dev-centr/code-lens.svg?style=for-the-badge
+[contributors-url]: https://github.com/dev-centr/code-lens/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dev-centr/code-lens.svg?style=for-the-badge
+[forks-url]: https://github.com/dev-centr/code-lens/network/members
+[stars-shield]: https://img.shields.io/github/stars/dev-centr/code-lens.svg?style=for-the-badge
+[stars-url]: https://github.com/dev-centr/code-lens/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dev-centr/code-lens.svg?style=for-the-badge
+[issues-url]: https://github.com/dev-centr/code-lens/issues
+[license-shield]: https://img.shields.io/github/license/dev-centr/code-lens.svg?style=for-the-badge
+[license-url]: https://github.com/dev-centr/code-lens/blob/main/LICENSE
