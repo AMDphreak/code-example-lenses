@@ -1,0 +1,74 @@
+= v0.2.0–v0.2.9 — Delivery model and demo rebuild
+:navtitle: v0.2.x releases
+:page-date: 2026-05-29
+
+== v0.2.9
+
+=== Added
+
+* link:ecosystem.adoc[Delivery model] — CSS skin, Tailwind skin (planned), runtime, adapters.
+* `@code-lens/css` — stylesheet package.
+
+=== Changed
+
+* Registry simplified; `spec/implementations.json5` adds `delivery` layer per row.
+
+== v0.2.8
+
+=== Changed
+
+* Mobile uses lens tabs only; dark appearance glass/tab contrast; `@code-lens/solid` shipped.
+
+== v0.2.7
+
+=== Changed
+
+* Block-wide glass overlay replaces per-token pill sweep; text selection restored except during swipe.
+
+== v0.2.6
+
+=== Added
+
+* Component `appearance="auto|light|dark"` with `themes.json5` v2 light/dark palettes.
+
+== v0.2.5
+
+=== Added
+
+* Demo color scheme toggle with system autodetect.
+
+== v0.2.4
+
+=== Fixed
+
+* Diff token measurement probe; glass lens `backdrop-filter` detection.
+
+== v0.2.3
+
+=== Changed
+
+* GitHub Pages demo rebuilt with SolidJS + solid-ui.
+
+== v0.2.2
+
+=== Added
+
+* `spec/implementations.json5`, glass lens capabilities doc, `@code-lens/solid`, planned package scaffolds.
+
+== v0.2.1
+
+=== Added
+
+* xref:editor-integrations.adoc[Editor integration docs]; VS Code and Zed extension scaffolds.
+
+== v0.2.0
+
+=== Changed
+
+* Renamed project to *code-lens* (`@code-lens/*` packages).
+
+=== Added
+
+* Glass lens sweep over diff tokens during morph.
+
+Back to xref:changelog.adoc[Changelog index].

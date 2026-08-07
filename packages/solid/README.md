@@ -18,4 +18,4 @@ import { lensDocument, themes, ui } from "./spec";
 
 The GitHub Pages demo uses Solid + solid-ui for **page chrome** only; the lens block is still `@code-lens/vanilla` under the hood.
 
-React / Vue / Svelte: embed `@code-lens/vanilla` the same way — see [docs/ecosystem.md](../../docs/ecosystem.md).
+React / Vue / Svelte: embed `@code-lens/vanilla` the same way — see [Delivery model docs](https://docs.devcentr.org/code-lens/ecosystem.html).

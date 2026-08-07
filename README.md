@@ -5,6 +5,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
+[![Docs | Dev-Centr](https://img.shields.io/badge/docs-Dev--Centr-22c55e)](https://docs.devcentr.org/code-lens/)
 [![Deploy GitHub Pages](https://github.com/dev-centr/code-lens/actions/workflows/pages.yml/badge.svg)](https://github.com/dev-centr/code-lens/actions/workflows/pages.yml)
 
 <div align="center">
@@ -12,6 +13,8 @@
   <p>One code snippet, multiple pedagogical lenses — portable JSON5 spec and &lt;code-lens&gt; web component with framework adapters.</p>
   <p>
     <a href="https://dev-centr.github.io/code-lens/">Live demo</a>
+    ·
+    <a href="https://docs.devcentr.org/code-lens/">Docs | Dev-Centr</a>
     ·
     <a href="https://github.com/dev-centr/code-lens/issues">Report Bug</a>
     ·
@@ -44,7 +47,7 @@ One snippet, multiple pedagogical naming conventions — the real lens for code 
 | Skin | `@code-lens/css` or `@code-lens/tailwind` (planned) |
 | Engine | `@code-lens/vanilla` + `@code-lens/core` (pulled in automatically) |
 
-→ [docs/ecosystem.md](docs/ecosystem.md)
+→ [Delivery model docs](https://docs.devcentr.org/code-lens/ecosystem.html)
 
 ## Installation
 
@@ -85,10 +88,10 @@ document.body.appendChild(el);
 | [`spec/themes.json5`](spec/themes.json5) | Color schemes (light/dark per theme) |
 | [`spec/ui.json5`](spec/ui.json5) | Interaction + animation |
 
-- [Ecosystem / delivery model](docs/ecosystem.md)
-- [Full specification](docs/specification.md)
-- [AI / LLM reproduction spec](docs/ai-reproduction-spec.md) — normative porting detail
-- [Glass lens capabilities](docs/glass-lens-capabilities.md)
+- [Ecosystem / delivery model](https://docs.devcentr.org/code-lens/ecosystem.html)
+- [Full specification](https://docs.devcentr.org/code-lens/specification.html)
+- [AI / LLM reproduction spec](https://docs.devcentr.org/code-lens/ai-reproduction-spec.html) — normative porting detail
+- [Glass lens capabilities](https://docs.devcentr.org/code-lens/glass-lens-capabilities.html)
 - [Implementation registry](implementations/REGISTRY.md)
 
 ## License

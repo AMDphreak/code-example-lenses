@@ -84,7 +84,7 @@ export default function App() {
           </ul>
           <Button
             as="a"
-            href="https://github.com/dev-centr/code-lens/blob/main/docs/specification.md"
+            href="https://docs.devcentr.org/code-lens/specification.html"
             variant="link"
             class="h-auto p-0 font-mono text-xs uppercase tracking-widest"
             target="_blank"
@@ -108,7 +108,7 @@ export default function App() {
             — see{" "}
             <a
               class="link-neutral"
-              href="https://github.com/dev-centr/code-lens/blob/main/docs/editor-integrations.md"
+              href="https://docs.devcentr.org/code-lens/editor-integrations.html"
             >
               editor feasibility
             </a>

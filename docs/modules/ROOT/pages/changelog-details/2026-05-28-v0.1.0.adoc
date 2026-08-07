@@ -1,0 +1,14 @@
+= v0.1.0 — Initial release
+:navtitle: v0.1.0
+:page-date: 2026-05-28
+
+== Added
+
+* Portable JSON5 spec (`spec/`) for examples, themes, and UI behavior.
+* `@code-lens/core` — parse, validate, variable slot detection, theme resolution.
+* `@code-lens/vanilla` — `<code-lens>` with hover preview, glass tab indicator, swipe, morphing diff tokens.
+* Six color schemes with distinct panel color per lens.
+* Demo site (Vite) for GitHub Pages.
+* xref:specification.adoc[Specification], xref:ai-reproduction-spec.adoc[AI reproduction spec], and implementation registry.
+
+Back to xref:changelog.adoc[Changelog index].

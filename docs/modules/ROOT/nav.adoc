@@ -1,0 +1,7 @@
+* xref:index.adoc[Introduction]
+* xref:ecosystem.adoc[Delivery model]
+* xref:specification.adoc[Specification]
+* xref:ai-reproduction-spec.adoc[AI reproduction spec]
+* xref:glass-lens-capabilities.adoc[Glass lens capabilities]
+* xref:editor-integrations.adoc[Editor integrations]
+* xref:changelog.adoc[Changelog]

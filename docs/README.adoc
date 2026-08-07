@@ -1,0 +1,10 @@
+= code-lens documentation
+
+Antora component for the Dev-Centr docs portal.
+
+* Component descriptor: `antora.yml`
+* Pages: `modules/ROOT/pages/`
+* Navigation: `modules/ROOT/nav.adoc`
+
+Build locally as part of the link:https://github.com/dev-centr/docs[dev-centr/docs] playbook.
+Published URL (after playbook registration): link:https://docs.devcentr.org/code-lens/[docs.devcentr.org/code-lens/].

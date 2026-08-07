@@ -38,6 +38,7 @@ pnpm dlx solidui-cli@latest add dialog tabs
 
 ## GitHub Pages URL
 
-When published from the `code-lens` repository, the site is served at the repo Pages URL (e.g. `https://amdphreak.github.io/code-lens/`). The portfolio links to `https://dev-centr.github.io/code-lens/` when that custom domain is configured on the repo.
+Published from the `dev-centr/code-lens` repository at **https://dev-centr.github.io/code-lens/**.
+Product documentation lives on the Dev-Centr docs portal: **https://docs.devcentr.org/code-lens/**.
 
 `vite.config.ts` uses `base: "./"` so asset paths work under a subdirectory.

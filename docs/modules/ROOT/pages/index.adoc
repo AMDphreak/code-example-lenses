@@ -1,0 +1,65 @@
+= code-lens
+:navtitle: Introduction
+:description: One code snippet, multiple pedagogical lenses — portable JSON5 spec and web component with framework adapters.
+
+code-lens displays one aligned code example through multiple *pedagogical lenses*.
+Syntax and structure stay identical; only referential tokens change.
+Variable tokens cross-fade when switching lenses, with optional per-token sheen and a block-wide glass sweep over the code panel.
+
+== Live demo
+
+link:https://dev-centr.github.io/code-lens/[GitHub Pages demo] — SolidJS + `@code-lens/solid`.
+
+== Quick start
+
+[source,bash]
+----
+pnpm install
+pnpm dev    # SolidJS demo on port 5174
+----
+
+[source,javascript]
+----
+import "@code-lens/css";
+import { createCodeLens, registerCodeLens } from "@code-lens/vanilla";
+import { parseLensBlock, parseThemes, parseUi } from "@code-lens/core";
+
+registerCodeLens();
+const el = createCodeLens({
+  document: parseLensBlock(blockJson5),
+  themes: parseThemes(themesJson5),
+  ui: parseUi(uiJson5),
+}, "earth");
+document.body.appendChild(el);
+----
+
+[source,html]
+----
+<code-lens theme="earth" appearance="auto"></code-lens>
+----
+
+* `appearance`: `auto` | `light` | `dark` — independent of pedagogical color theme.
+* `slotHighlight`: `plain` | `box` — rounded highlight on changeable tokens (default `plain`).
+
+== Portable spec
+
+[cols="1,2",options="header"]
+[cols="1",options="header"]
+|===
+| ===
+| `spec/examples/*.json5` | Aligned token data per lens
+| `spec/themes.json5` | Color schemes (light/dark per theme)
+| `spec/ui.json5` | Interaction + animation
+| ===
+|===
+
+== Documentation map
+
+* xref:ecosystem.adoc[Delivery model] — what you install vs what we maintain
+* xref:specification.adoc[Specification] — normative behavior and spec files
+* xref:ai-reproduction-spec.adoc[AI reproduction spec] — porting detail for LLMs and native UI
+* xref:glass-lens-capabilities.adoc[Glass lens capabilities] — blur tiers and runtime probing
+* xref:editor-integrations.adoc[Editor integrations] — VS Code and Zed feasibility
+* xref:changelog.adoc[Changelog] — release history
+
+Source: link:https://github.com/dev-centr/code-lens[dev-centr/code-lens].

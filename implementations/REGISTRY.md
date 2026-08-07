@@ -1,6 +1,6 @@
 # Implementation Registry
 
-See [docs/ecosystem.md](../docs/ecosystem.md).
+See [Delivery model docs](https://docs.devcentr.org/code-lens/ecosystem.html).
 
 ## TypeScript / JS components
 

@@ -1,0 +1,114 @@
+ifndef::env-github[:icons: font]
+:toc: preamble
+:toclevels: 2
+:sectanchors:
+
+ifndef::env-github[]
+image:https://img.shields.io/github/contributors/dev-centr/code-lens.svg?style=for-the-badge[Contributors,link=https://github.com/dev-centr/code-lens/graphs/contributors]
+image:https://img.shields.io/github/forks/dev-centr/code-lens.svg?style=for-the-badge[Forks,link=https://github.com/dev-centr/code-lens/network/members]
+image:https://img.shields.io/github/stars/dev-centr/code-lens.svg?style=for-the-badge[Stars,link=https://github.com/dev-centr/code-lens/stargazers]
+image:https://img.shields.io/github/issues/dev-centr/code-lens.svg?style=for-the-badge[Issues,link=https://github.com/dev-centr/code-lens/issues]
+image:https://img.shields.io/github/license/dev-centr/code-lens.svg?style=for-the-badge[License,link=https://github.com/dev-centr/code-lens/blob/main/LICENSE]
+image:https://img.shields.io/badge/docs-Dev--Centr-22c55e[Docs,link=https://docs.devcentr.org/code-lens/]
+image:https://github.com/dev-centr/code-lens/actions/workflows/pages.yml/badge.svg[Deploy GitHub Pages,link=https://github.com/dev-centr/code-lens/actions/workflows/pages.yml]
+endif::[]
+
+ifdef::env-github[]
+image:https://img.shields.io/github/contributors/dev-centr/code-lens.svg?style=for-the-badge[Contributors]
+image:https://img.shields.io/github/forks/dev-centr/code-lens.svg?style=for-the-badge[Forks]
+image:https://img.shields.io/github/stars/dev-centr/code-lens.svg?style=for-the-badge[Stars]
+image:https://img.shields.io/github/issues/dev-centr/code-lens.svg?style=for-the-badge[Issues]
+image:https://img.shields.io/github/license/dev-centr/code-lens.svg?style=for-the-badge[License]
+image:https://img.shields.io/badge/docs-Dev--Centr-22c55e[Docs | Dev-Centr]
+image:https://github.com/dev-centr/code-lens/actions/workflows/pages.yml/badge.svg[Deploy GitHub Pages]
+endif::[]
+
+= code-lens
+
+[.text-center]
+One code snippet, multiple pedagogical lenses — portable JSON5 spec and `<code-lens>` web component with framework adapters.
+
+link:https://dev-centr.github.io/code-lens/[Live demo] ·
+link:https://docs.devcentr.org/code-lens/[Docs | Dev-Centr] ·
+link:https://github.com/dev-centr/code-lens/issues[Report Bug] ·
+link:https://github.com/dev-centr/code-lens/issues[Request Feature]
+
+== About The Project
+
+One snippet, multiple pedagogical naming conventions — the real lens for code examples (not a metaphor).
+
+=== Delivery model
+
+*In Solid/React/Next you install a component* — e.g. `import { CodeLens } from "@code-lens/solid"`.
+Under the hood one shared engine powers every framework package.
+
+[cols="1,1",options="header"]
+|===
+| Layer | Package
+| Component (your import) | `@code-lens/solid`, `@code-lens/react`, …
+| Skin | `@code-lens/css` or `@code-lens/tailwind` (planned)
+| Engine | `@code-lens/vanilla` + `@code-lens/core` (pulled in automatically)
+|===
+
+→ link:https://docs.devcentr.org/code-lens/ecosystem.html[Delivery model docs]
+
+== Installation
+
+[source,bash]
+----
+pnpm install
+pnpm dev          # SolidJS + solid-ui demo (port 5174)
+----
+
+== Usage
+
+[source,javascript]
+----
+import "@code-lens/css";
+import { createCodeLens, registerCodeLens } from "@code-lens/vanilla";
+import { parseLensBlock, parseThemes, parseUi } from "@code-lens/core";
+
+registerCodeLens();
+const el = createCodeLens({
+  document: parseLensBlock(blockJson5),
+  themes: parseThemes(themesJson5),
+  ui: parseUi(uiJson5),
+}, "earth");
+document.body.appendChild(el);
+----
+
+[source,html]
+----
+<code-lens theme="earth" appearance="auto"></code-lens>
+----
+
+`appearance`: `auto` | `light` | `dark` — independent of pedagogical color theme.
+
+`slotHighlight`: `plain` | `box` — rounded highlight on changeable tokens (default `plain`).
+
+=== Portable spec
+
+[cols="1,2",options="header"]
+|===
+| File | Role
+| link:https://github.com/dev-centr/code-lens/tree/main/spec/examples[`spec/examples/*.json5`] | Aligned token data per lens
+| link:https://github.com/dev-centr/code-lens/blob/main/spec/themes.json5[`spec/themes.json5`] | Color schemes (light/dark per theme)
+| link:https://github.com/dev-centr/code-lens/blob/main/spec/ui.json5[`spec/ui.json5`] | Interaction + animation
+|===
+
+* link:https://docs.devcentr.org/code-lens/ecosystem.html[Ecosystem / delivery model]
+* link:https://docs.devcentr.org/code-lens/specification.html[Full specification]
+* link:https://docs.devcentr.org/code-lens/ai-reproduction-spec.html[AI / LLM reproduction spec]
+* link:https://docs.devcentr.org/code-lens/glass-lens-capabilities.html[Glass lens capabilities]
+* link:https://github.com/dev-centr/code-lens/blob/main/implementations/REGISTRY.md[Implementation registry]
+
+== License
+
+MIT
+
+== Contact
+
+DevCentr.org — support@devcentr.org
+
+* Project: https://github.com/dev-centr/code-lens
+* Site: https://dev-centr.github.io/code-lens/

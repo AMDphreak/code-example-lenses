@@ -11,4 +11,4 @@ import { registerCodeLens, createCodeLens } from "@code-lens/vanilla";
 
 Same file as `@code-lens/vanilla/code-lens.css` — this package exists so apps can depend on **CSS only** when bundling or documenting the presentation layer separately.
 
-See [docs/ecosystem.md](../../docs/ecosystem.md).
+See [Delivery model docs](https://docs.devcentr.org/code-lens/ecosystem.html).
