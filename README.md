@@ -1,20 +1,21 @@
 <a id="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-[![Deploy GitHub Pages](https://github.com/dev-centr/code-lens/actions/workflows/pages.yml/badge.svg)](https://github.com/dev-centr/code-lens/actions/workflows/pages.yml)
-
 <div align="center">
-  <h1>code-lens</h1>
-  <p>One code snippet, multiple pedagogical lenses — portable JSON5 spec and &lt;code-lens&gt; web component with framework adapters.</p>
-  <p>
-    <a href="https://dev-centr.github.io/code-lens/">Live demo</a>
-    ·
+  <a href="https://github.com/dev-centr/code-lens/graphs/contributors"><img src="https://img.shields.io/github/contributors/dev-centr/code-lens.svg?style=for-the-badge" alt="Contributors"></a>
+  <a href="https://github.com/dev-centr/code-lens/network/members"><img src="https://img.shields.io/github/forks/dev-centr/code-lens.svg?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/dev-centr/code-lens/stargazers"><img src="https://img.shields.io/github/stars/dev-centr/code-lens.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/dev-centr/code-lens/issues"><img src="https://img.shields.io/github/issues/dev-centr/code-lens.svg?style=for-the-badge" alt="Issues"></a>
+  <a href="https://github.com/dev-centr/code-lens/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dev-centr/code-lens.svg?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/dev-centr/code-lens/actions/workflows/pages.yml"><img src="https://github.com/dev-centr/code-lens/actions/workflows/pages.yml/badge.svg" alt="Deploy GitHub Pages"></a>
+
+  <h3 align="center">code-lens</h3>
+  <p align="center">
+    One code snippet, multiple pedagogical lenses — portable JSON5 spec and &lt;code-lens&gt; web component with framework adapters.
+    <br />
+    <a href="https://dev-centr.github.io/code-lens/"><strong>Live demo »</strong></a>
+    <br />
+    <br />
     <a href="https://github.com/dev-centr/code-lens/issues">Report Bug</a>
-    ·
+    &middot;
     <a href="https://github.com/dev-centr/code-lens/issues">Request Feature</a>
   </p>
 </div>
@@ -46,12 +47,16 @@ One snippet, multiple pedagogical naming conventions — the real lens for code 
 
 → [docs/ecosystem.md](docs/ecosystem.md)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Installation
 
 ```bash
 pnpm install
 pnpm dev          # SolidJS + solid-ui demo (port 5174) — mounts vanilla <code-lens>
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
@@ -91,28 +96,20 @@ document.body.appendChild(el);
 - [Glass lens capabilities](docs/glass-lens-capabilities.md)
 - [Implementation registry](implementations/REGISTRY.md)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## License
 
-MIT
-
-## Contact
-
-DevCentr.org - support@devcentr.org
-
-Project Link: https://github.com/dev-centr/code-lens
-
-Site: https://dev-centr.github.io/code-lens/
+Distributed under the MIT License. See `LICENSE`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/dev-centr/code-lens.svg?style=for-the-badge
-[contributors-url]: https://github.com/dev-centr/code-lens/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/dev-centr/code-lens.svg?style=for-the-badge
-[forks-url]: https://github.com/dev-centr/code-lens/network/members
-[stars-shield]: https://img.shields.io/github/stars/dev-centr/code-lens.svg?style=for-the-badge
-[stars-url]: https://github.com/dev-centr/code-lens/stargazers
-[issues-shield]: https://img.shields.io/github/issues/dev-centr/code-lens.svg?style=for-the-badge
-[issues-url]: https://github.com/dev-centr/code-lens/issues
-[license-shield]: https://img.shields.io/github/license/dev-centr/code-lens.svg?style=for-the-badge
-[license-url]: https://github.com/dev-centr/code-lens/blob/main/LICENSE
+## Contact
+
+DevCentr.org — support@devcentr.org
+
+Project Link: [https://github.com/dev-centr/code-lens](https://github.com/dev-centr/code-lens)
+
+Site: [https://dev-centr.github.io/code-lens/](https://dev-centr.github.io/code-lens/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
