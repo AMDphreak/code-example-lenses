@@ -1,0 +1,45 @@
+= Changelog
+:navtitle: Changelog
+:description: Release history for code-lens and its documentation.
+
+This changelog records functional changes to code-lens packages, the demo site, and published documentation.
+Entries are in reverse chronological order.
+Detailed release notes link from each version summary below.
+
+== Unreleased
+
+* Repository transferred from `AMDphreak/code-lens` to link:https://github.com/dev-centr/code-lens[dev-centr/code-lens].
+  Live demo: link:https://dev-centr.github.io/code-lens/[dev-centr.github.io/code-lens].
+* **Docs** — Antora component under `docs/` for the Dev-Centr docs portal; AsciiDoc pages migrated from flat Markdown.
+
+== 2026-05-29 — v0.3.13
+
+* **Slot highlight modes** — `slotHighlight="plain"|"box"` for rounded pills on changeable tokens.
+* Demo Plain / Box toggle with persisted preference.
+* README badges; GitHub repo metadata.
+
+xref:changelog-details/2026-05-29-v0.3.13.adoc[Detailed changelog]
+
+== 2026-05-29 — v0.3.12
+
+* **Docs** — align AI reproduction spec and specification with shipped slotted morph layout.
+
+xref:changelog-details/2026-05-29-v0.3.12.adoc[Detailed changelog]
+
+== 2026-05-29 — v0.3.0 through v0.3.11
+
+Morph layout fixes, appearance/dark-mode sync, slotted token alignment, and framework adapter shipping.
+
+xref:changelog-details/2026-05-29-v0.3.x.adoc[Detailed changelog — v0.3.1–v0.3.11]
+
+== 2026-05-29 — v0.2.x
+
+Delivery model docs, component appearance, glass block overlay, Solid demo rebuild, editor integration scaffolds, implementation registry.
+
+xref:changelog-details/2026-05-29-v0.2.x.adoc[Detailed changelog — v0.2.0–v0.2.9]
+
+== 2026-05-28 — v0.1.0
+
+Initial portable JSON5 spec, `@code-lens/core`, `@code-lens/vanilla`, demo site, and specification docs.
+
+xref:changelog-details/2026-05-28-v0.1.0.adoc[Detailed changelog]

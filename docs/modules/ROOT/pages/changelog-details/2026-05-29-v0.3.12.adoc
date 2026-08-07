@@ -1,0 +1,10 @@
+= v0.3.12 — Documentation alignment
+:navtitle: v0.3.12
+:page-date: 2026-05-29
+
+== Changed
+
+* *Docs* — align `ai-reproduction-spec` and `specification` with shipped slotted morph (flex baseline lines, inline-block slots, width-only pin, opacity cross-fade, block glass).
+  Document anti-patterns and note that meta copy updates instantly.
+
+Back to xref:changelog.adoc[Changelog index].

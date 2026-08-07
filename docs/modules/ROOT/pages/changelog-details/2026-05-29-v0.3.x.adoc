@@ -1,0 +1,79 @@
+= v0.3.1–v0.3.11 — Morph fixes and adapters
+:navtitle: v0.3.x patch releases
+:page-date: 2026-05-29
+
+== v0.3.11
+
+=== Fixed
+
+* *Restore slotted morph layout* — revert height-lock experiment; back to flex baseline lines, inline-block slots, width-only pin.
+
+== v0.3.10
+
+=== Fixed
+
+* *Slotted token line height during morph* — slots stay `display: inline` at rest; morph box uses measured width and height.
+
+== v0.3.9
+
+=== Fixed
+
+* *Vertical spacing during slotted morph* — slotted tokens stay `inline-block` at rest and morph; code lines use flex `align-items: baseline`.
+
+== v0.3.8
+
+=== Fixed
+
+* *Slotted morph width* — pin morph shell to measured incoming text width.
+
+== v0.3.7
+
+=== Fixed
+
+* *Slotted token width during morph* — stack width follows incoming text.
+
+== v0.3.6
+
+=== Changed
+
+* *Slotted tokens* — removed diff highlight boxes and width morph; plain inline spans at rest with cross-fade sheen.
+
+== v0.3.5
+
+=== Fixed
+
+* *Plain token vertical shift during morph* — morph layers over in-flow sizing strut.
+
+== v0.3.4
+
+=== Fixed
+
+* *Line height during lens morph* — inner clip locked to `1lh` with stacked cross-fade layers.
+* *GitHub Pages CI* — build `@code-lens/css` before the demo.
+
+== v0.3.3
+
+=== Fixed
+
+* *Slotted token alignment* — diff highlights use `::before` overlay; fixed pixel widths only during width morph.
+
+== v0.3.2
+
+=== Fixed
+
+* *Component dark mode* — appearance/theme changes sync before `configure()` and call `refreshAppearance()`.
+* Solid/React adapters split config updates from appearance patches.
+
+== v0.3.1
+
+=== Added
+
+* *Rust UI adapters:* `code-lens-sycamore`, `code-lens-dominator`, `code-lens-seed`.
+* *D adapters:* `implementations/d` — `code_lens.libwasm` and `code_lens.dlangui`.
+* *Jane Street Bonsai:* moved to `implementations/bonsai/`.
+
+=== Removed
+
+* `@code-lens/bonsai` (NCAC TypeScript framework).
+
+Back to xref:changelog.adoc[Changelog index].

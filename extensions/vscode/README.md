@@ -35,7 +35,7 @@ Press F5 in VS Code (**Run Extension**) with this folder opened.
 
 ## Architecture
 
-See [docs/editor-integrations.md](../../docs/editor-integrations.md).
+See [Editor integrations](https://docs.devcentr.org/code-lens/editor-integrations.html).
 
 ## Roadmap
 

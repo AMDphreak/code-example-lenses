@@ -2,9 +2,15 @@
 
 ## Unreleased
 
+### Added
+
+- **Antora docs** — `docs/antora.yml` and AsciiDoc pages under `docs/modules/ROOT/` for the Dev-Centr docs portal; changelog index with detail pages.
+- **README.adoc** — primary readme with Docs | Dev-Centr badge; `README.md` retained for GitHub/npm rendering.
+
 ### Changed
 
 - Repository transferred from `AMDphreak/code-lens` to [`dev-centr/code-lens`](https://github.com/dev-centr/code-lens). Live demo: [dev-centr.github.io/code-lens](https://dev-centr.github.io/code-lens/).
+- Flat `docs/*.md` guides migrated to AsciiDoc; links in README and demo README point at `docs.devcentr.org/code-lens/`.
 
 ## [0.3.13] - 2026-05-29
 

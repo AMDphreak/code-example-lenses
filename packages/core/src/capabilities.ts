@@ -9,7 +9,7 @@ export type GlassLensTier =
 
 export type ImplementationStatus = "shipped" | "wip" | "planned";
 
-/** How this row fits the delivery stack — see docs/ecosystem.md */
+/** How this row fits the delivery stack — see docs.devcentr.org/code-lens/ecosystem.html */
 export type DeliveryLayer =
   | "spec"
   | "css"

@@ -14,7 +14,7 @@ Zed does **not** currently offer a VS Code–style webview for embedding `@code-
 | Open external preview (`dev-centr.github.io/code-lens` or local static server) | Easy |
 | Native text overlays with morph animation | Blocked on editor APIs |
 
-See [docs/editor-integrations.md](../../docs/editor-integrations.md).
+See [Editor integrations](https://docs.devcentr.org/code-lens/editor-integrations.html).
 
 ## Recommended v1: code-lens LSP
 

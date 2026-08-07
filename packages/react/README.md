@@ -19,4 +19,4 @@ export function CodeLens(props: CodeLensProps) {
 }
 ```
 
-Copy the pattern from `@code-lens/solid`. See [docs/ecosystem.md](../../docs/ecosystem.md).
+Copy the pattern from `@code-lens/solid`. See [Delivery model docs](https://docs.devcentr.org/code-lens/ecosystem.html).
